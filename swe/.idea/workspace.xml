@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf4a237-61e2-41f5-80fc-6cee87e80bb8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/OpenClose.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software-Engineering.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Engineering/algo/sort/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Engineering/ds/tree/bst/BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Engineering/ds/tree/bst/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Engineering/ds/tree/bt/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Engineering/ds/tree/bt/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Engineering/solid/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Engineering/solid/BookPrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Engineering/solid/SingleResponsibility.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +96,7 @@
       <recent name="G:\Personal SE\Git Repo\Software Engineering\swe\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchTree">
+  <component name="RunManager" selected="Application.OpenClose">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ds.tree.bst.BinarySearchTree" />
       <module name="swe" />
@@ -125,6 +116,19 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenClose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solid.OpenClose" />
+      <module name="swe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,14 +160,16 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.OpenClose" />
       <item itemvalue="Application.BinarySearchTree" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.SingleResponsibility" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearchTree" />
+        <item itemvalue="Application.OpenClose" />
         <item itemvalue="Application.SingleResponsibility" />
+        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -182,7 +188,7 @@
       <workItem from="1711863280085" duration="2559000" />
       <workItem from="1713059840184" duration="883000" />
       <workItem from="1713060902816" duration="729000" />
-      <workItem from="1713094530759" duration="633000" />
+      <workItem from="1713094530759" duration="1873000" />
     </task>
     <servers />
   </component>
