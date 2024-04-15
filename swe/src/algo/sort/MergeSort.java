@@ -23,7 +23,7 @@ public class MergeSort {
             R[j] = arr[i];
         }
         int i = 0, j = 0, k = l;
-        while (i <= mid && j < r-mid){
+        while (i <= mid-l && j < r-mid){
             if(L[i] < R[j]){
                 arr[k++] = L[i++];
             }
@@ -43,7 +43,7 @@ public class MergeSort {
 
     public static void main(String[] args) {
 
-        int arr[] = {2, 1, 10, 6, 2, 5};
+        int arr[] = {2, 1, 10, 6, 2, 5, 1 , 5, 9, 15, 2 , 5};
         for(int i=0; i<arr.length; i++){
             System.out.println(arr[i]+" ");
         }
