@@ -3,15 +3,6 @@ package algo.sort;
 public class MergeSort {
 
 
-    private static void sort(int[] arr, int l, int r) {
-        if(l < r){
-            int mid =  (l + r)/2;
-            sort(arr, l, mid);
-            sort(arr, mid+1, r);
-            merge(arr, l,  mid, r);
-        }
-    }
-
     private static void merge(int[] arr, int l, int mid, int r) {
 
         int[] L = new int[mid - l +1];
@@ -40,10 +31,29 @@ public class MergeSort {
 
     }
 
+    private static void sort(int[] arr, int l, int r) {
+        if(l < r){
+            int mid =  (l + r)/2;
+            sort(arr, l, mid);
+            sort(arr, mid+1, r);
+            merge(arr, l,  mid, r);
+        }
+
+//with another basecase
+//        if(l == r)
+//            return;
+//        int mid = (l+r)/2;
+//        sort(arr, l, mid );
+//        sort(arr, mid+1, r);
+//        merge(arr, l, mid, r);
+    }
+
+
+
 
     public static void main(String[] args) {
 
-        int arr[] = {2, 1, 10, 6, 2, 5, 1 , 5, 9, 15, 2 , 5};
+        int arr[] = {2, 1, 10, 6};
         for(int i=0; i<arr.length; i++){
             System.out.println(arr[i]+" ");
         }
