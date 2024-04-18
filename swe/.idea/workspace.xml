@@ -3,14 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="1cf4a237-61e2-41f5-80fc-6cee87e80bb8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swe/algo/sort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/swe/algo/sort/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swe/ds/tree/bst/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/swe/ds/tree/bst/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ds/tree/bst/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/tree/bst/BinarySearchTree.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/swe$BinarySearchTree.ic" NAME="BinarySearchTree Coverage Results" MODIFIED="1713434126547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ds.tree.bst.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/swe$MergeSort.ic" NAME="MergeSort Coverage Results" MODIFIED="1713161823928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>algo.sort.*</FILTER>
     </SUITE>
@@ -29,22 +37,19 @@
     <expand />
     <select />
   </component>
-<<<<<<< HEAD
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algo/sort/MergeSort.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ds/tree/bst/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+            <state relative-caret-position="265">
+              <caret line="80" column="9" lean-forward="true" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-=======
->>>>>>> 4715e8da7e426eb7d1822131b79d82f5375602be
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -70,6 +75,7 @@
         <option value="$PROJECT_DIR$/src/solid/SingleResponsibility.java" />
         <option value="$PROJECT_DIR$/src/designpattern/creatonal/FactoryMethod.java" />
         <option value="$PROJECT_DIR$/src/algo/sort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/ds/tree/bst/BinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -98,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -121,44 +128,48 @@
               <item name="swe" type="b2602c69:ProjectViewProjectNode" />
               <item name="swe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="creatonal" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="swe" type="b2602c69:ProjectViewProjectNode" />
               <item name="swe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="creatonal" type="462c0819:PsiDirectoryNode" />
-              <item name="FactoryMethod.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="bst" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="bst" type="462c0819:PsiDirectoryNode" />
+              <item name="BinarySearchTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="swe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="solid" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Personal SE/Git Repo/Software Engineering/swe/src&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Personal SE\Git Repo\Software Engineering\swe\src" />
     </key>
   </component>
-<<<<<<< HEAD
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -171,48 +182,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
-=======
-  <component name="RunManager" selected="Application.FactoryMethod">
->>>>>>> 4715e8da7e426eb7d1822131b79d82f5375602be
-    <configuration name="DependencyInversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solid.DependencyInversion" />
+  <component name="RunManager" selected="Application.BinarySearchTree">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ds.tree.bst.BinarySearchTree" />
       <module name="swe" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solid.*" />
+          <option name="PATTERN" value="ds.tree.bst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactoryMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.creatonal.FactoryMethod" />
-      <module name="swe" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpattern.creatonal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LiskovSubstitution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solid.LiskovSubstitution" />
-      <module name="swe" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algo.sort.MergeSort" />
@@ -223,41 +202,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenClose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solid.OpenClose" />
-      <module name="swe" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DependencyInversion" />
-      <item itemvalue="Application.LiskovSubstitution" />
-      <item itemvalue="Application.OpenClose" />
       <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Application.FactoryMethod" />
+      <item itemvalue="Application.BinarySearchTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.FactoryMethod" />
-        <item itemvalue="Application.DependencyInversion" />
-        <item itemvalue="Application.LiskovSubstitution" />
-        <item itemvalue="Application.OpenClose" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -273,18 +230,16 @@
       <workItem from="1713060902816" duration="729000" />
       <workItem from="1713094530759" duration="8319000" />
       <workItem from="1711863280085" duration="3205000" />
-<<<<<<< HEAD
       <workItem from="1713242838486" duration="6049000" />
       <workItem from="1713413924979" duration="1129000" />
-=======
       <workItem from="1713242838486" duration="5103000" />
       <workItem from="1713140902658" duration="657000" />
->>>>>>> 4715e8da7e426eb7d1822131b79d82f5375602be
+      <workItem from="1713418086402" duration="19700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26971000" />
+    <option name="totallyTimeSpent" value="46671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -292,24 +247,24 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32960895" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.18659218" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32849163" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.6695096" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26385927" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40335196" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988827" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -317,27 +272,39 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
   </component>
-<<<<<<< HEAD
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/algo/sort/MergeSort.java</url>
           <line>33</line>
           <properties class="algo.sort.MergeSort" method="sort">
@@ -345,57 +312,86 @@
           </properties>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/ds/tree/bst/BinarySearchTree.java</url>
+          <line>26</line>
+          <properties class="ds.tree.bst.BinarySearchTree" method="insert">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ds/tree/bst/BinarySearchTree.java</url>
+          <line>61</line>
+          <properties class="ds.tree.bst.BinarySearchTree" method="deleteNode">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="35" />
     </breakpoint-manager>
   </component>
-=======
->>>>>>> 4715e8da7e426eb7d1822131b79d82f5375602be
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>i</expression-string>
+        <expression-string>root</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>i++</expression-string>
+        <expression-string>root.right</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>R</expression-string>
+        <expression-string>root.left</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>L;</expression-string>
+        <expression-string>deleteNode(root.left, element);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>L</expression-string>
+        <expression-string>deleteNode(root.left, element)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>L[]</expression-string>
+        <expression-string>deleteNode(root.right, element)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>L[j]</expression-string>
+        <expression-string>bst.root</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>text.replace(word, newWord);</expression-string>
+        <expression-string>(bst.root)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bst.insert(bst.root, 7);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/algo/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algo/sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -441,8 +437,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algo/sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        <state relative-caret-position="170">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ds/tree/bst/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="80" column="9" lean-forward="true" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
         </state>
       </provider>
     </entry>
