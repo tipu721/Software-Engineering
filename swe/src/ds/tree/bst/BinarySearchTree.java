@@ -78,6 +78,9 @@ public class BinarySearchTree {
                 System.out.println("successfully deleted "+element);
                 return root.left;
             }
+            else if(root.right != null && root.left != null){
+                
+            }
         }
        if(element < root.value){
             root.left = deleteNode(root.left, element);
