@@ -13,12 +13,19 @@ public class Fibonacci {
 
     private static int fib(int n) {
 
+        System.out.println("Fib function called with "+ n);
+
         if(n == 1 || n == 2){
-            return n - 1;
+           return n-1;
         }
-        int a = fib(n-1);
-        int b = fib(n-2);
-        return (a+b);
+        if(dp[n-1] == -1){
+           dp[n-1] = fib(n-1);
+        }
+        if(dp[n-2] == -1){
+            dp[n-2] = fib(n-2);
+        }
+        dp[n] = dp[n-1] + dp[n-2];
+        return dp[n];
 
     }
     public static void main(String[] args) {
@@ -34,10 +41,15 @@ public class Fibonacci {
         for(int i = 1; i <= 6; i++){
             System.out.println(fib[i]);
         }
-        System.out.println(fib(6));
-        System.out.println("Array");
+        System.out.println("Output for recurrsive approach");
         initilizeArray(dp);
+        for(int i=0; i<=6; i++){
+            System.out.println(dp[i]);
+        }
         fib(6);
+        for(int i=1; i<=6; i++){
+            System.out.println(dp[i]);
+        }
     }
 
 
