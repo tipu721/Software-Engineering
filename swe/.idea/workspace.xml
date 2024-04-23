@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf4a237-61e2-41f5-80fc-6cee87e80bb8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algo/sort/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algo/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algo/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/sort/SelectionSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,20 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SelectionSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algo/sort/SelectionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algo/sort/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="323">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -84,8 +75,8 @@
         <option value="$PROJECT_DIR$/src/algo/sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/ds/tree/bst/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/ds/tree/dp/Fibonacci.java" />
-        <option value="$PROJECT_DIR$/src/algo/sort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/algo/sort/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/algo/sort/BubbleSort.java" />
       </list>
     </option>
   </component>
@@ -165,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
+  <component name="RunManager" selected="Application.BubbleSort">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ds.tree.bst.BinarySearchTree" />
       <module name="swe" />
@@ -225,8 +216,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.MergeSort" />
@@ -255,12 +246,12 @@
       <workItem from="1713140902658" duration="657000" />
       <workItem from="1713418086402" duration="19700000" />
       <workItem from="1713485736062" duration="1273000" />
-      <workItem from="1713846800734" duration="4478000" />
+      <workItem from="1713846800734" duration="6856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53866000" />
+    <option name="totallyTimeSpent" value="56244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -274,8 +265,8 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30726257" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32849163" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30726257" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32849163" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26652452" />
       <window_info anchor="right" id="Database" order="3" />
@@ -560,17 +551,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algo/sort/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/algo/sort/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="374">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algo/sort/SelectionSort.java">
+    <entry file="file://$PROJECT_DIR$/src/algo/sort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
         </state>
       </provider>
     </entry>

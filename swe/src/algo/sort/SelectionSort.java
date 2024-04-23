@@ -2,8 +2,7 @@ package algo.sort;
 
 public class SelectionSort {
 
-    public static void main(String[] args) {
-        int[] ar = {1, 5, 1, 5, 4, 2, 3};
+    private static void selectionSort(int[] ar){
         for(int i=0; i<ar.length; i++){
             int minPos = i;
             for(int j = i+1; j<ar.length; j++){
@@ -16,8 +15,15 @@ public class SelectionSort {
             ar[minPos] = temp;
         }
 
+    }
+
+    public static void main(String[] args) {
+
+        int[] ar = {1, 5, 1, 5, 4, 2, 3};
+        selectionSort(ar);
         for(int i=0; i<ar.length; i++){
             System.out.println(ar[i]);
         }
+
     }
 }
