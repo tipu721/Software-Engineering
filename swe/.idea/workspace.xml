@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cf4a237-61e2-41f5-80fc-6cee87e80bb8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/swe/ds/tree/bst/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/swe/ds/tree/bst/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ds/tree/bst/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/tree/bst/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/sort/SelectionSort.java" afterDir="false" />
-    </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="1cf4a237-61e2-41f5-80fc-6cee87e80bb8" name="Default" comment="class file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +47,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -149,19 +141,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Personal SE\Git Repo\Software Engineering\swe\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchTree">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ds.tree.bst.BinarySearchTree" />
       <module name="swe" />
@@ -194,8 +186,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.BinarySearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -222,6 +214,14 @@
       <workItem from="1713418086402" duration="19700000" />
       <workItem from="1713485736062" duration="1273000" />
     </task>
+    <task id="LOCAL-00001" summary="class file">
+      <created>1715308991254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715308991254</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -276,6 +276,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="class file" />
+    <option name="LAST_COMMIT_MESSAGE" value="class file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
