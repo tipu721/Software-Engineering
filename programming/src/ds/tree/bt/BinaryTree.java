@@ -77,6 +77,7 @@ public class BinaryTree {
             else {
                 queue.element().right = new Node(12);
                 return;
+
             }
         }
     }
